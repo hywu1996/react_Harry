@@ -58,6 +58,10 @@
 
 /* Containers */
 
+	form .row .input100 {
+		width: 100%;
+	}
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -86,6 +90,10 @@
 	}
 
 	@media screen and (max-width: 1680px) {
+		form .row .input50 {
+			width: 50%;
+		}
+
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -112,6 +120,9 @@
 	}
 
 	@media screen and (max-width: 980px) {
+		form .row .input50 {
+			width: 50%;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -137,7 +148,13 @@
 
 	}
 
+
+
 	@media screen and (max-width: 736px) {
+
+		form .row .input50 {
+			width: 50%;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -164,6 +181,9 @@
 	}
 
 	@media screen and (max-width: 480px) {
+		form .row .input50 {
+			width: 100%;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;

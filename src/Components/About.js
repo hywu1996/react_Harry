@@ -15,6 +15,7 @@ const About = () => (
                     <li><a href="https://www.facebook.com/harry.y.wu" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
                     <li><a href="https://www.instagram.com/harryywu" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
                     <li><a href="https://github.com/hywu1996" className="icon fa-github"><span className="label">Github</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/harry-wu-5UUU" className="icon fa-linkedin"><span className="label">Github</span></a></li>
                 </ul>
 
             </div>

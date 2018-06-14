@@ -1,17 +1,18 @@
 import React from 'react';
 
+
 const Footer = () => (
     <section id="footer">
         <div className="container">
             <header className="major">
                 <h2>Get in touch</h2>
             </header>
-            <form method="post" action="#">
+            <form method="POST" action="https://formspree.io/harry.y.wu@gmail.com">
                 <div className="row uniform">
-                    <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                    <div className="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                    <div className="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                    <div className="12u$">
+                    <div className="6u 12u$(xsmall) input50"><input type="text" name="name" id="name" placeholder="name" /></div>
+                    <div className="6u$ 12u$(xsmall) input50"><input type="email" name="_replyto" id="email" placeholder="email" /></div>
+                    <div className="12u$ input100"><textarea name="message" id="message" placeholder="your message" rows="4"></textarea></div>
+                    <div className="12u$ input100">
                         <ul className="actions">
                             <li><input type="submit" value="Send Message" className="special" /></li>
                         </ul>

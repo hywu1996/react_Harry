@@ -1,18 +1,17 @@
 import React from 'react';
 
 const Welcome = () => (
-  <section id="three" className="main special">
-    <div className="container">
-      <span className="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
-      <div className="content">
-        <header className="major">
-          <h2>One more thing</h2>
-        </header>
-        <p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
-      </div>
-      <a href="#footer" className="goto-next scrolly">Next</a>
-    </div>
-  </section>
+  <section id="header">
+  <header className="major">
+      <h1>Welcome</h1>
+      <p>Here's a chance to get to know me a little better!</p>
+  </header>
+  <div className="container">
+      <ul className="actions">
+          <li><a href="#one" className="button special scrolly">Begin</a></li>
+      </ul>
+  </div>
+</section>
 );
 
 export default Welcome;
