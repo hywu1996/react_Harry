@@ -6,9 +6,16 @@ const More = () => (
       <span className="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
       <div className="content">
         <header className="major">
-          <h2>One more thing</h2>
+          <h2>Hobbies and Interests</h2>
         </header>
-        <p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
+        <ul>
+            <li>I love volleyball and skateboarding</li>
+            <li>I enjoy playing the piano</li>
+            <li>My favourite book series is the Alex Delaware detective series by Jonathan Kellerman</li>
+            <li>My favourite piece of anime is <i>A Silent Voice</i></li>
+            <li>My favourite TV Series is <i>NCIS</i></li>
+            <li>The game I've played most is probably Binding of Issac @ 206 hours</li>
+        </ul>
       </div>
       <a href="#footer" className="goto-next scrolly">Next</a>
     </div>
