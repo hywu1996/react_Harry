@@ -8,7 +8,6 @@
 // });
 
 // app.listen(port, () => console.log(`Listening on port ${port}`));
-
 const creds = require('./config/config');
 
 var express = require('express'),
@@ -46,7 +45,9 @@ app.post('/send', function (req, res) {
     var name = req.body.name
     var email = req.body.email
     var message = req.body.message
-    var content = `name: ${name} \n email: ${email} \n message: ${content} `
+    console.log(message);
+    var content = `name: ${name} \n email: ${email} \n message: ${message} `
+    console.log(content);
     let mailOptions = {
         from: 'hyw.website@gmail.com', // sender address
         to: 'harry.y.wu@gmail.com', // list of receivers
