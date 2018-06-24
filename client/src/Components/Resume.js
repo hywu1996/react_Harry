@@ -32,7 +32,7 @@ const Resume = () => (
 					<li>
 						<a href="https://github.com/hywu1996/react_Harry" target="_blank">
 							<span className="icon major fa-chrome"></span>
-							<h3>This Site Built Using ReactJS</h3>
+							<h3>This ReactJS/Express Website</h3>
 						</a>
 					</li>
 				</ul>
