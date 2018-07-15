@@ -42,7 +42,7 @@ class Footer extends Component {
         console.log("Message: ==>", message);
         axios({
             method: "POST",
-            url: "http://localhost:5000/send1",
+            url: "http://localhost:5000/send",
             data: {
                 name: name,
                 email: email,
