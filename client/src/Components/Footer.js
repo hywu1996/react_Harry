@@ -10,7 +10,7 @@ class Popup extends Component {
                         <span className="icon major fa-envelope"></span>
                         <h1 className="popupContent">Message Sent</h1>
                         <p className="popupContent">I'll try to get back as soon as possible!</p>
-                        
+
                     </div>
                     <input id="closePopup" type="submit" onClick={this.props.closePopup} value="x" className="special popupContent" />
                 </div>
@@ -89,9 +89,10 @@ class Footer extends Component {
                     </div>
                     <footer>
                         <ul className="icons">
-                            <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
-                            <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                            <li><a href="#" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
+                            <li><a href="https://www.facebook.com/harry.y.wu" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+                            <li><a href="https://www.instagram.com/harryywu" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+                            <li><a href="https://github.com/hywu1996" className="icon fa-github"><span className="label">Github</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/harry-wu-5UUU" className="icon fa-linkedin"><span className="label">Github</span></a></li>
                         </ul>
                         <ul className="copyright">
                             <li>&copy; Harry Wu</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

@@ -25,7 +25,7 @@ app.use(function (req, res, next) {
 app.use(express.static(__dirname +'./../client/dist'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 app.get('/', function (req, res) {
     res.send({ express: 'Hello From Express' });
 });
