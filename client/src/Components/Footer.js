@@ -55,7 +55,7 @@ class Footer extends Component {
         console.log("Message: ==>", message);
         axios({
             method: "POST",
-            url: "http://localhost:3000/send1",
+            url: "http://localhost:3000/send",
             data: {
                 name: name,
                 email: email,
@@ -63,9 +63,7 @@ class Footer extends Component {
             }
         }).then((response) => {
             console.log(response.data.msg);
-            if (response.data.msg === 'success') {
-                var wrapper = document.getElementById('wrapper');
-                
+            if (response.data.msg === 'success') {                
                 this.togglePopup();
                 this.resetForm();
                 // window.scrollTo(0, 0);
