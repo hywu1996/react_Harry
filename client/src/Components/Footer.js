@@ -26,11 +26,24 @@ class Footer extends Component {
         this.state = {
             showPopup: false,
         };
+
     }
     togglePopup() {
         this.setState({
             showPopup: !this.state.showPopup
         });
+
+        var wrapper = document.getElementById('wrapper');
+        if(wrapper != undefined) {
+            wrapper.scrollTop = 0
+            if (this.state.showPopup == false || wrapper.style.overflow=='hidden') {
+                wrapper.style.overflow='auto';
+            }
+            else {
+                wrapper.style.overflow='hidden';
+            }
+        }
+
     }
     handleSubmit(e) {
         console.log("Handlesubmit");
@@ -42,7 +55,7 @@ class Footer extends Component {
         console.log("Message: ==>", message);
         axios({
             method: "POST",
-            url: "http://localhost:3000/send",
+            url: "http://localhost:3000/send1",
             data: {
                 name: name,
                 email: email,
@@ -51,6 +64,8 @@ class Footer extends Component {
         }).then((response) => {
             console.log(response.data.msg);
             if (response.data.msg === 'success') {
+                var wrapper = document.getElementById('wrapper');
+                
                 this.togglePopup();
                 this.resetForm();
                 // window.scrollTo(0, 0);
