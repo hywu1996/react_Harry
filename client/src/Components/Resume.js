@@ -1,17 +1,49 @@
 import React from "react";
+import "react-vertical-timeline-component/style.min.css";
 
 const Resume = () => (
   <section id="two" className="main special">
     <div className="container">
-      {/* <span className="image fit primary">
-        <img src="images/bg.jpg" alt="" />
-      </span> */}
       <div className="content">
         <header className="major">
-          <h2>Cool Things I've Done</h2>
+          <h2>Projects</h2>
         </header>
 
-        <p>Here are links to some personal projects: </p>
+        <p>Projects I've been a part of:</p>
+        <ul className="icons-grid">
+          <li>
+            <a href="https://shopaccessories365.com/" target="_blank">
+              <span className="icon major fa-car"></span>
+              <h3>Shop Accessories 365 (Vue, Laravel, MySQL)</h3>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=ca.uwo.its.adt.westernumobile"
+              target="_blank"
+            >
+              <span className="icon major fa-graduation-cap"></span>
+              <h3>Western University App (Android)</h3>
+            </a>
+          </li>
+          <li>
+            <a href="https://x-cd.com/" target="_blank">
+              <span className="icon major fa-code"></span>
+              <h3>X-CD Conferencing Mobile App (React Native)</h3>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=org.oma.oma_app"
+              target="_blank"
+            >
+              <span className="icon major fa-user-md"></span>
+              <h3>Ontario Medical Association App (Android)</h3>
+            </a>
+          </li>
+        </ul>
+
+        <p>Personal Projects: </p>
         <ul className="icons-grid">
           <li>
             <a
@@ -19,7 +51,7 @@ const Resume = () => (
               target="_blank"
             >
               <span className="icon major fa-pencil"></span>
-              <h3>MNIST Digit Classification</h3>
+              <h3>MNIST Digit Classification (ML, MATLAB) </h3>
             </a>
           </li>
           <li>
@@ -28,13 +60,16 @@ const Resume = () => (
               target="_blank"
             >
               <span className="icon major fa-database"></span>
-              <h3>Movie Theatre Management System</h3>
+              <h3>Movie Theatre Management System (Python, Flask, MySQL)</h3>
             </a>
           </li>
           <li>
-            <a href="#" target="_blank">
+            <a
+              href="https://github.com/hywu1996/Blogging-Web-MEAN"
+              target="_blank"
+            >
               <span className="icon major fa-code"></span>
-              <h3>PHP/mongoDB Login System</h3>
+              <h3>Blogging Site (Mongo, Express, Angular, Node)</h3>
             </a>
           </li>
           <li>

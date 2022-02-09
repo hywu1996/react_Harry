@@ -9,6 +9,7 @@ import "../styles/main.css";
 import "../styles/font-awesome.min.css";
 import * as THREE from "three";
 import harry from "../../images/profile.jpg";
+import metal from "../../images/metal.jpg";
 import { Color } from "three";
 
 export default function App() {
@@ -40,16 +41,17 @@ export default function App() {
     // let w = 3,
     //   h = 1;
 
-    geometry = new THREE.TorusGeometry(25, 3, 16, 100);
+    geometry = new THREE.TorusGeometry(25, 1, 16, 100);
 
-    var material = new THREE.MeshStandardMaterial({
-      color: color1,
-      wireframe: false,
+    const metalTexture = new THREE.TextureLoader().load(metal);
+
+    var material = new THREE.MeshBasicMaterial({
+      map: metalTexture,
     });
 
     var torus = new THREE.Mesh(geometry, material);
     torus.position.set(-1, 1, 0);
-    scene.add(torus);
+    // scene.add(torus);
 
     var light = new THREE.AmbientLight(0xffffff);
     var lightPoint = new THREE.PointLight(0xffffff);
@@ -104,7 +106,8 @@ export default function App() {
       mouseX = event.clientX;
     }
     function zoomCamera(event) {
-      camera.position.z += event.deltaY / 800;
+      // camera.position.z += event.deltaY / 800;
+      profileBox.position.z -= event.deltaY / 500;
     }
 
     var animate = function () {

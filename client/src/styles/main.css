@@ -1666,6 +1666,10 @@ pre code {
   text-align: right;
 }
 
+.white {
+  color: white;
+}
+
 /* Loader */
 
 @-moz-keyframes spinner-show {
