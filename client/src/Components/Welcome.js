@@ -4,7 +4,7 @@ const Welcome = () => (
   <section id="header">
     <header className="major">
       <h1>Harry Wu</h1>
-      <p>Experienced Software Developer</p>
+      <p>Software Developer, Problem Solver, and all-around nice guy?</p>
       &nbsp;
       <ul className="icons">
         <li>
@@ -33,7 +33,7 @@ const Welcome = () => (
             href="https://www.linkedin.com/in/harry-wu-5UUU"
             className="icon fa-linkedin"
           >
-            <span className="label">Github</span>
+            <span className="label">LinkedIn</span>
           </a>
         </li>
       </ul>

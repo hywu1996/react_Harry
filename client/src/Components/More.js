@@ -3,9 +3,9 @@ import React from "react";
 const More = () => (
   <section id="three" className="main special">
     <div className="container">
-      <span className="image fit primary">
+      {/* <span className="image fit primary">
         <img src="images/bg.jpg" alt="" />
-      </span>
+      </span> */}
       <div className="content">
         <header className="major">
           <h2>Hobbies and Interests</h2>
