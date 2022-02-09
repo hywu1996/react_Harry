@@ -1,5 +1,4 @@
 import React from "react";
-import "react-vertical-timeline-component/style.min.css";
 
 const Resume = () => (
   <section id="two" className="main special">
