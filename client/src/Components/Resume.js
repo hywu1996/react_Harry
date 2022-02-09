@@ -92,6 +92,15 @@ const Resume = () => (
               <h3>Paper on Neu3/Neu4 Neuronal Regulation</h3>
             </a>
           </li>
+          <li>
+            <a
+              href="https://drive.google.com/open?id=1_1Pjz5edqzx1VTbevh4GrNGywz_6sByn"
+              target="_blank"
+            >
+              <span className="icon major fa-book"></span>
+              <h3>Rhetoric of Freedom: Women's Suffrage</h3>
+            </a>
+          </li>
         </ul>
       </div>
       <p> To learn more about me, here's a link to my resume: </p>
