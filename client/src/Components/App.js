@@ -81,9 +81,7 @@ export default function App() {
     );
     scene.add(particlesMesh);
 
-    const profileTexture = new THREE.TextureLoader().load(
-      "../../images/profile.jpg"
-    );
+    const profileTexture = new THREE.TextureLoader().load(harry);
 
     const profileBox = new THREE.Mesh(
       new THREE.BoxGeometry(3, 3, 3),
