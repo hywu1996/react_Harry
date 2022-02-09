@@ -79,8 +79,8 @@ const Resume = () => (
           </li>
         </ul>
         <p>
-          These next ones aren't programming related but check them out if
-          you're interested!
+          This next one isn't programming related but check it out if you're
+          interested!
         </p>
         <ul className="icons-grid">
           <li>
@@ -90,15 +90,6 @@ const Resume = () => (
             >
               <span className="icon major fa-flask"></span>
               <h3>Paper on Neu3/Neu4 Neuronal Regulation</h3>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/open?id=1_1Pjz5edqzx1VTbevh4GrNGywz_6sByn"
-              target="_blank"
-            >
-              <span className="icon major fa-book"></span>
-              <h3>Rhetoric of Freedom: Women's Suffrage</h3>
             </a>
           </li>
         </ul>
